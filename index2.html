@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rolex – Strategii Avansate de Poziționare Premium</title>
+  <meta name="description" content="Analiză profundă a strategiilor Rolex pentru menținerea poziției de lider în industria ceasurilor de lux prin preț premium, branding exclusiv și marketing strategic." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/alpinejs@3" defer></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .gradient {
+      background: linear-gradient(135deg, #000000, #1f2937);
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    /* Animations */
+    .fade-in {
+      animation: fadeIn 1s ease-in-out forwards;
+      opacity: 0;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    .slide-up {
+      animation: slideUp 1s ease-out forwards;
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    @keyframes slideUp {
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    .scale-in {
+      animation: scaleIn 0.8s ease forwards;
+      transform: scale(0.95);
+      opacity: 0;
+    }
+    @keyframes scaleIn {
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+    .timeline {
+      position: relative;
+      padding-left: 50px;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 20px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(to bottom, #10b981, #3b82f6);
+    }
+    .timeline-item {
+      position: relative;
+      margin-bottom: 30px;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -40px;
+      top: 5px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #10b981;
+      border: 3px solid #3b82f6;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Navbar -->
+  <header class="gradient sticky top-0 z-50 p-4 flex justify-between items-center shadow-md">
+    <h1 class="text-3xl font-extrabold text-green-400 tracking-wide">ROLEX</h1>
+    <nav class="space-x-6 text-md">
+      <a href="#pozitionare" class="hover:text-green-400 transition">Preț&nbsp;Premium</a>
+      <a href="#istoric" class="hover:text-green-400 transition">Istoric</a>
+      <a href="#modele" class="hover:text-green-400 transition">Modele&nbsp;Iconice</a>
+      <a href="#marketing" class="hover:text-green-400 transition">Marketing</a>
+      <a href="#branding" class="hover:text-green-400 transition">Branding</a>
+      <a href="#tehnologie" class="hover:text-green-400 transition">Tehnologie</a>
+      <a href="#proiect" class="hover:text-green-400 transition">Proiect</a>
+    </nav>
+  </header>
+
+  <main class="p-6 max-w-7xl mx-auto space-y-24">
+    <!-- Hero image -->
+    <section class="rounded-xl overflow-hidden scale-in relative">
+      <img src="https://uploads.nationaljeweler.com/uploads/0a09491fcc240c6e6ad5b1888084c3d7.jpg" alt="Rolex luxury watch" class="w-full object-cover h-[520px] rounded-xl shadow-2xl" />
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-10">
+        <h1 class="text-5xl font-bold mb-4">ROLEX</h1>
+        <p class="text-xl max-w-2xl">Sinfonia perfecționismului: unde meșteșugul elvețian întâlnește prestigiul contemporan</p>
+      </div>
+    </section>
+
+    <!-- Poziționare bazată pe preț premium -->
+    <section id="pozitionare" class="glass p-10 rounded-3xl shadow-xl slide-up">
+      <h2 class="text-4xl font-bold mb-8 text-green-400">Strategia de Preț Premium</h2>
+      <div class="grid md:grid-cols-2 gap-10 text-lg leading-relaxed">
+        <div>
+          <p class="mb-6">
+            Rolex implementează una dintre cele mai sofisticate strategii de preț premium din lumea luxului, transformând 
+            ceasurile sale în <strong>active financiare</strong> mai degrabă decât simple bunuri de consum. 
+          </p>
+          <p class="mb-6">
+            <strong>Paradoxul Rolex:</strong> Cu cât prețul este mai mare, cu atât cererea crește. Acest fenomen 
+            economic contraintuitiv se bazează pe:
+          </p>
+          <ul class="list-disc pl-6 space-y-3">
+            <li><strong>Efectul Veblen</strong> - cererea crește odată cu prețul datorită valorii de statut</li>
+            <li><strong>Scarcity artificială</strong> - producție controlată pentru a menține valoarea</li>
+            <li><strong>Amortizare negativă</strong> - unele modele Rolex se apreciază în timp</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold mb-4 text-green-300">Analiză Comparativă a Prețurilor</h3>
+          <div class="bg-gray-800 p-6 rounded-xl">
+            <div class="flex justify-between py-3 border-b border-gray-700">
+              <span>Rolex Submariner</span>
+              <span class="font-bold">~9.500€</span>
+            </div>
+            <div class="flex justify-between py-3 border-b border-gray-700">
+              <span>Omega Seamaster</span>
+              <span>~5.200€</span>
+            </div>
+            <div class="flex justify-between py-3 border-b border-gray-700">
+              <span>Tag Heuer Aquaracer</span>
+              <span>~2.800€</span>
+            </div>
+            <div class="flex justify-between py-3">
+              <span>Media pieței</span>
+              <span>~3.500€</span>
+            </div>
+          </div>
+          <p class="mt-4 text-sm text-gray-300">*Prețuri orientative la retail pentru modele de bază</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Istoric extins -->
+    <section id="istoric" class="glass p-10 rounded-3xl shadow-xl fade-in">
+      <h2 class="text-4xl font-bold mb-8 text-green-400">Cronologia Revoluționară Rolex</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3 class="text-xl font-bold">1905 - Fondarea</h3>
+            <p>Hans Wilsdorf înființează compania în Londra cu visul de a crea ceasuri de mână precise.</p>
+          </div>
+          <div class="timeline-item">
+            <h3 class="text-xl font-bold">1910 - Prima Certificare</h3>
+            <p>Rolex primește primul certificat de precizie pentru un ceas de mână de la Oficiul Elvețian de Rating al Ceasurilor.</p>
+          </div>
+          <div class="timeline-item">
+            <h3 class="text-xl font-bold">1926 - Oyster</h3>
+            <p>Lansarea primului ceas etanș din lume, testat de înotătoarea Mercedes Gleitze care a traversat Canalul Mânecii.</p>
+          </div>
+          <div class="timeline-item">
+            <h3 class="text-xl font-bold">1945 - Datejust</h3>
+            <p>Primul ceas care afișa automat data pe cadran, devenind un simbol al postbelicului.</p>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3 class="text-xl font-bold">1953 - Explorer</h3>
+            <p>Creat pentru expediția care a cucerit Everestul, demonstrând rezistența în condiții extreme.</p>
+          </div>
+          <div class="timeline-item">
+            <h3 class="text-xl font-bold">1963 - Daytona</h3>
+            <p>Inspirat de cursele auto de la Daytona, devenind legendă prin asocierea cu Paul Newman.</p>
+          </div>
+          <div class="timeline-item">
+            <h3 class="text-xl font-bold">1971 - Sea-Dweller</h3>
+            <p>Dezvoltat pentru scafandrii profesioniști, rezistând la adâncimi de până la 610 metri.</p>
+          </div>
+          <div class="timeline-item">
+            <h3 class="text-xl font-bold">2000 - Certificarea Superlativă</h3>
+            <p>Toate ceasurile Rolex primesc certificarea COSC și sunt testate suplimentar pentru precizie superlativă.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modele Iconice -->
+    <section id="modele" class="glass p-10 rounded-3xl shadow-xl slide-up">
+      <h2 class="text-4xl font-bold mb-8 text-green-400">Modele Legendare</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+          <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49" alt="Rolex Submariner" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Submariner</h3>
+            <p class="text-gray-300 mb-4">Icona scafandrilor, rezistent la 300m, lansat în 1953. Simbol al aventurii subacvatice.</p>
+            <div class="flex justify-between items-center">
+              <span class="text-green-400 font-bold">De la 9.500€</span>
+             
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+          <img src="https://www.ags-bijuterie.ro/image/cache/catalog/imagini/2054/rolex-daytona-cosmograph-116500ln-black-ceramic-bezel-full-set-1-900x900-70.jpg" alt="Rolex Daytona" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Daytona</h3>
+            <p class="text-gray-300 mb-4">Cronograful legendar asociat cu cursele auto și Paul Newman. Cel mai căutat model Rolex.</p>
+            <div class="flex justify-between items-center">
+              <span class="text-green-400 font-bold">De la 14.000€</span>
+
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+          <img src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6" alt="Rolex Day-Date" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Day-Date</h3>
+            <p class="text-gray-300 mb-4">"President Watch", purtat de lideri mondiali. Afișează ziua săptămânii pe întreg cadranul.</p>
+            <div class="flex justify-between items-center">
+              <span class="text-green-400 font-bold">De la 35.000€</span>
+     
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Strategii de marketing premium extins -->
+    <section id="marketing" class="glass p-10 rounded-3xl shadow-xl fade-in">
+      <h2 class="text-4xl font-bold mb-8 text-green-400">Strategii Avansate de Marketing</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div>
+          <h3 class="text-2xl font-semibold mb-4 text-green-300">Sponsorizări Selective</h3>
+          <p class="mb-6">Rolex asociază brandul exclusiv cu evenimente de elită care reflectă valorile sale:</p>
+          <ul class="list-disc pl-6 space-y-3">
+            <li><strong>Wimbledon</strong> - cel mai vechi turneu de tenis, din 1978</li>
+            <li><strong>Formula 1</strong> - partener oficial din 2013</li>
+            <li><strong>America's Cup</strong> - competiția prestigioasă de yachting</li>
+            <li><strong>Explorers Club</strong> - sprijină expediții științifice extreme</li>
+          </ul>
+        </div>
+        <div>
+   <div class="img"><img style="width: 500px; border-radius: 40px;" src="https://images.unsplash.com/photo-1526045431048-f857369baa09?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+    </section>
+
+    <!-- Branding vizual premium extins -->
+    <section id="branding" class="glass p-10 rounded-3xl shadow-xl slide-up">
+      <h2 class="text-4xl font-bold mb-8 text-green-400">Arhitectura Brandului Rolex</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div>
+          <h3 class="text-2xl font-semibold mb-4 text-green-300">Elemente Vizuale Distinctive</h3>
+          <ul class="list-disc pl-6 space-y-3">
+            <li><strong>Coronă Regală</strong> - simbolul Rolex, introdus în 1953, reprezentând regalitatea și excelența</li>
+            <li><strong>Verde Rolex</strong> - codul de culoare Pantone 3425C, protejat legal</li>
+            <li><strong>Mercedes Hands</strong> - acele caracteristice, proiectate pentru lizibilitate optimă</li>
+            <li><strong>Cyclops Lens</strong> - lupă pentru dată introdusă în 1953, mărind afișajul de 2,5 ori</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold mb-4 text-green-300">Experiența Retail Exclusivă</h3>
+          <p class="mb-4">Boutique-urile Rolex sunt proiectate pentru a crea o atmosferă de lux absolut:</p>
+          <ul class="list-disc pl-6 space-y-3">
+            <li>Doar 1.300 de puncte de vânzare autorizate în întreaga lume</li>
+            <li>Design interior inspirat din atelierele elvețiene</li>
+            <li>Consilieri de vânzări cu pregătire specializată de 6 luni</li>
+            <li>Liste de așteptare pentru modele populare (până la 5 ani pentru Daytona)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tehnologie și inovație -->
+    <section id="tehnologie" class="glass p-10 rounded-3xl shadow-xl fade-in">
+      <h2 class="text-4xl font-bold mb-8 text-green-400">Inginerie și Inovație</h2>
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h3 class="text-2xl font-semibold mb-4 text-green-300">Mecanisme Revoluționare</h3>
+          <ul class="list-disc pl-6 space-y-3">
+            <li><strong>Oyster Case (1926)</strong> - primul carcasă etanșă din lume</li>
+            <li><strong>Perpetual Rotor (1931)</strong> - mecanismul automat care a revoluționat industria</li>
+            <li><strong>Parachrom Hairspring (2000)</strong> - arc anti-magnetic rezistent la șocuri</li>
+            <li><strong>Cerachrom Bezel (2005)</strong> - ceramică extrem de rezistentă la zgârieturi</li>
+          </ul>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl">
+          <h4 class="text-lg font-semibold mb-3">Procesul de Fabricare</h4>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between mb-1">
+                <span>Testarea preciziei</span>
+                <span>7 zile</span>
+              </div>
+              <div class="w-full bg-gray-700 rounded-full h-2">
+                <div class="bg-green-400 h-2 rounded-full" style="width: 100%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span>Asamblare manuală</span>
+                <span>30 ore</span>
+              </div>
+              <div class="w-full bg-gray-700 rounded-full h-2">
+                <div class="bg-green-400 h-2 rounded-full" style="width: 85%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span>Prelucrare carcasă</span>
+                <span>40 de operații</span>
+              </div>
+              <div class="w-full bg-gray-700 rounded-full h-2">
+                <div class="bg-green-400 h-2 rounded-full" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+          <p class="mt-4 text-sm text-gray-300">Fiecare ceas Rolex necesită aproximativ 1 an pentru producție</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Date proiect extins -->
+    <section id="proiect" class="glass p-10 rounded-3xl shadow-xl slide-up">
+      <h2 class="text-4xl font-bold mb-8 text-green-400">Analiză Strategică</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div>
+          <h3 class="text-2xl font-semibold mb-4 text-green-300">Concluzii Proiect</h3>
+          <p class="mb-4">Studiul de caz Rolex demonstrează cum o strategie de preț premium bine orchestrată poate crea:</p>
+          <ul class="list-disc pl-6 space-y-3">
+            <li>Percepție de valoare inegalabilă</li>
+            <li>Fidelizare extremă a clienților</li>
+            <li>Rezistență la fluctuațiile pieței</li>
+            <li>Potențial de apreciere a valorii în timp</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold mb-4 text-green-300">Statistici Rolex</h3>
+          <div class="bg-gray-800 p-6 rounded-xl">
+            <div class="flex justify-between py-3 border-b border-gray-700">
+              <span>Producție anuală</span>
+              <span class="font-bold">~1 milion ceasuri</span>
+            </div>
+            <div class="flex justify-between py-3 border-b border-gray-700">
+              <span>Angajați</span>
+              <span>4.000+ în Elveția</span>
+            </div>
+            <div class="flex justify-between py-3 border-b border-gray-700">
+              <span>Profit anual</span>
+              <span>~5 miliarde CHF</span>
+            </div>
+            <div class="flex justify-between py-3">
+              <span>Pondere piețe lux</span>
+              <span>25% global</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-8 text-lg space-y-2">
+        <p><strong>Realizat de:</strong> Pechianu&nbsp;Răzvan & Simion&nbsp;Narcis</p>
+        <p><strong>Modul:</strong> 5&nbsp;– CDL&nbsp;– MPN</p>
+        <p><strong>Profesor îndrumător:</strong> Vlonga&nbsp;Luminița</p>
+        <p><strong>Surse:</strong> Rapoarte Rolex SA, Bloomberg, Forbes, Fondation de la Haute Horlogerie</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center py-6 text-gray-400 text-sm border-t border-gray-700 mt-20">
+    © 2025 Proiect Educațional – Analiză Strategică Rolex | Modulul&nbsp;5&nbsp;CDL‑MPN
+  </footer>
+</body>
+</html>
